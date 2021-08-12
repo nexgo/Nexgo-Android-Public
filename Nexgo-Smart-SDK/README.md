@@ -393,8 +393,8 @@ You can use an external font using the steps below:
 ```java
   //Let's use an external font from the file in our 'assets' directory
   AssetManager am = getApplicationContext().getAssets();
-  Typeface xmas = Typeface.createFromAsset(am, "Christmas.ttf");
-  printer.setTypeface(xmas);
+  Typeface platNomor = Typeface.createFromAsset(am, "PlatNomor.ttf");
+  printer.setTypeface(platNomor);
 ```
 
 

@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity implements OnPrintListener {
 
         //Let's use an external font from the file in our 'assets' directory
         AssetManager am = getApplicationContext().getAssets();
-        Typeface xmas = Typeface.createFromAsset(am, "PlatNomor.ttf");
-        printer.setTypeface(xmas);
+        Typeface platNomor = Typeface.createFromAsset(am, "PlatNomor.ttf");
+        printer.setTypeface(platNomor);
 
         //Add sample text on top of receipt
         printer.appendPrnStr("Panda Karate", 54, AlignEnum.CENTER, true);
