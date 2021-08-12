@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements OnPrintListener {
 
         //Let's use an external font from the file in our 'assets' directory
         AssetManager am = getApplicationContext().getAssets();
-        Typeface xmas = Typeface.createFromAsset(am, "Christmas.ttf");
+        Typeface xmas = Typeface.createFromAsset(am, "PlatNomor.ttf");
         printer.setTypeface(xmas);
 
         //Add sample text on top of receipt
