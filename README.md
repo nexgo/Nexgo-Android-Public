@@ -1,6 +1,6 @@
 # Nexgo-Android-Public
 
-![Nexgo, Inc](/res/img/nexgo_logo_white.png)
+![Nexgo, Inc](/res/img/nexgo_logo_blue.png)
 
 Nexgo is focused on providing hardware and software solutions to the Payments industry. Our current line of point-of-sale terminals runs a customized and hardended version Android operating system that has been certified with PCI. Due to the prevelence of Android in the "wild", outside developers will find it exceedingly easy to create/port software solutions on the Nexgo devices. 
 
