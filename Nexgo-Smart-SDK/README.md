@@ -97,7 +97,7 @@ Inside the build.gradle (app) file, under the dependencies{...} section, we need
 
 Inside the `dependencies` section of the build.gradle, add the aar library file. Make sure the 'name' matches the filename of the version of the SDK you are trying to import. 
 ```gradle
-  compile(name: 'nexgo-smartpos-sdk-v2.2.1_20190808', ext: 'aar')
+  implementation files('libs/nexgo-smartpos-sdk-v3.03.001_20210412.aar')
 ```
 
 ### Add the 'libs' directory to your build.gradle (project) file's repositories section
